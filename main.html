@@ -1,0 +1,296 @@
+
+<html>
+	<head>
+		<title>ci!</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
+	</head>
+	<body>
+	<div id="player">
+    <audio autoplay hidden loop>
+     <source src="song.mp3" type="audio/mpeg">
+                If you're reading this, audio isn't supported. 
+    </audio>
+</div>
+
+
+		<!-- Header -->
+			<header id="header">
+			  <img src="images/heart.png" width="50" height="50" align="right" hspace="0">
+			  <p id="countdown"></p>
+			  <script>
+    var count=81;
+    var speed = 120000;
+    timer();
+
+    function timer()
+    {
+      count--;
+
+      //Do code for showing the number of seconds here
+         document.getElementById("countdown").innerHTML=count; // watch for      spelling
+		 document.getElementById("countdown").style.fontSize = "50px";
+		 document.getElementById("countdown").style.padding = "0px 50px 40px 0px";
+      speed = 120000; // or whatever
+      setTimeout(timer, speed);
+
+    }
+</script>
+
+				<div class="logo"><a href="index.html">carliz <span>wendi</span></a></div>
+				
+	</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="generic.html">Generic</a></li>
+					<li><a href="elements.html">Elements</a></li>
+				</ul>
+			</nav>
+
+		<!-- Banner -->
+		<!--
+			Note: To show a background image, set the "data-bg" attribute below
+			to the full filename of your image. This is used in each section to set
+			the background image.
+		-->
+			<section id="banner" class="bg-img" data-bg="banner8.jpg">
+				<div class="inner">
+					<header>
+						<h1>Selamat datang ci(n)a!</h1>
+						Selamat sudah sampai disini! Aku tak pernah lupa dengan permintaan kamu kok!
+						Tapi sebelum itu, ga semudah itu ya!
+					</header>
+				</div>
+				<a href="#one" class="more">Learn More</a>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper post bg-img" data-bg="banner.jpg">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>PERATURAN</h2>
+							<p>lihat dengan seksama ya!</p>
+						</header>
+						<div class="content">
+							<p>LAUV meter akan berkurang 1 poin setiap 2 menit. </p>
+							<p>Klik pada CLUE akan mempercepat waktu 3 per 4 kalinya. </p>
+							<p>JANGAN PERNAH KELUAR DARI TAB INI, JANGAN REFRESH</p>
+							<p>(-20 karena memaksa untuk dibantu dari kemarin)</p>
+							<p>Selamat bermain!</p>
+					  </div>
+
+				  </article>
+				</div>
+				
+	</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper post bg-img" data-bg="banner2.jpg">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>STAGE 1</h2>
+							<p>should be easiest part...</p>
+						</header>
+						<div class="content">
+							<p>Terdapat suatu kode tertentu di dalam foto carlizzzz.png</p>
+							<p>SIMPLE CLUE</p>
+							<p>Suatu metode untuk menyembunyikan pesan pada file tertentu</p
+						</div>
+						<footer>
+						  <input id="btn" type="button" value="click" onclick="myFunction1(); showAlert();"/>
+					<script>
+					function myFunction1()
+    {
+      speed = speed + (speed * 3 / 4)
+      setTimeout(timer, speed);
+    }
+				  function showAlert() {
+    alert ("steganography online");
+  }
+ 
+					</script>
+						</footer>
+					</article>
+				</div>
+				<a href="#three" class="more">Learn More</a>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="wrapper post bg-img" data-bg="banner3.jpg">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>STAGE 2</h2>
+							<p>semangat! masih panjang!</p>
+						</header>
+						<div class="content">
+							<p>Didalam lukisan mu, terkandung suatu message</p>
+							<p>SIMPLE CLUE</p>
+							<p>beep beep bop beep bop beep </p>
+						</div>
+						<footer>
+							 <input id="btn" type="button" value="click" onclick="myFunction2(); showAlert1();"/>
+					<script>
+					function myFunction2()
+    {
+      speed = speed + (speed * 3 / 4)
+      setTimeout(timer, speed);
+    }
+				  function showAlert1() {
+    alert ("morse code in hair (c_____t)");
+  }
+ 
+					</script>
+						</footer>
+					</article>
+				</div>
+				<a href="#four" class="more">Learn More</a>
+			</section>
+
+		<!-- Four -->
+			<section id="four" class="wrapper post bg-img" data-bg="banner4.jpg">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>STAGE 3</h2>
+							<p>Harusnya inget!</p>
+						</header>
+						<div class="content">
+							<p>Awal dari permainan ini, engkau pasti abaikan suatu informasi penting</p>
+							<p>SIMPLE CLUE</p>
+							<p>"Happy birthday! Nih gw balikin y"</p>
+						</div>
+						<footer>
+						  <input id="btn" type="button" value="click" onclick="myFunction3(); showAlert2();"/>
+					<script>
+					function myFunction3()
+    {
+      speed = speed + (speed * 3 / 4)
+      setTimeout(timer, speed);
+    }
+				  function showAlert2() {
+    alert ("Huruf awal setiap kalimat");
+  }
+ 
+					</script>
+						</footer>
+					</article>
+				</div>
+				<a href="#five" class="more">Learn More</a>
+		</section>
+				
+			<section id="Five" class="wrapper post bg-img" data-bg="banner5.jpg">
+				<div class="inner">
+				  <article class="box">
+						<header>
+							<h2>STAGE 4</h2>
+							<p>oof it's must be so hard</p>
+						</header>
+						<div class="content">
+							<p>13419th dari perjalanan kita</p>
+							<p>SIMPLE CLUE</p>
+							<p>"Perjalanan dunia maya"</p>
+						</div>
+						<footer>
+											 <input id="btn" type="button" value="click" onclick="myFunction4(); showAlert3();"/>
+					<script>
+					function myFunction4()
+    {
+      speed = speed + (speed * 3 / 4)
+      setTimeout(timer, speed);
+    }
+				  function showAlert3() {
+    alert ("Chat ke 13419th di LINE (Kolom C13419 di excel) (g_ ___ ___ __ ___ _n) ");
+  }
+ 
+					</script>
+					</footer>
+					</article>
+				</div>	
+				<a href="#six" class="more">Learn More</a>
+			</section>
+		
+	<section id="Six" class="wrapper post bg-img" data-bg="banner6.jpg">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>STAGE 5</h2>
+							<p>cooldown</p>
+						</header>
+						<div class="content">
+							<p>Akhir dari semuanya</p>
+							<p>SIMPLE CLUE</p>
+							<p>semua ucapan</p>
+						</div>
+						<footer>
+											 <input id="btn" type="button" value="click" onclick="myFunction5(); showAlert4();"/>
+					<script>
+					function myFunction5()
+    {
+      speed = speed + (speed * 3 / 4)
+      setTimeout(timer, speed);
+    }
+				  function showAlert4() {
+    alert ("Huruf akhir setiap bait");
+  }
+ 
+					</script>
+						</footer>
+					</article>
+				</div>
+				<a href="#seven" class="more">Learn More</a>
+			</section>
+		
+		<section id="Seven" class="wrapper post bg-img" data-bg="banner7.jpg">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>FINAL</h2>
+							<p>Collect your prize!</p>
+						</header>
+						<div class="content">
+						<p>l8MWfxcWb2/LtBM3fAIPEfugPUJN9YsVwIRWFJ6q4q4=</p>
+							<p>Gabung semua kode yang telah didapat menjadi satu kalimat, setiap huruf harus berjarak satu spasi </p>
+							<p>(contoh : stage pertama "nigel", stage kedua "nigga", jadi "n i g e l n e g r o" tanpa tanda petik) </p>
+							<p>Tulis di textbox ini untuk password beb</p>
+						
+						</div>
+						<footer>
+						<script>
+function checkIt()
+{
+if(document.getElementById("inputCode").value=="c h a r e l e s s c e p i r i t k y i t b o a w g w b r u p l g d r b e c k n i n f a t u a t i o n")
+ alert("0000");
+else
+ alert("cia bodoh");
+}
+</script>
+<input id="inputCode" type="text"/>
+<input type="button" value="Submit" onclick="checkIt()"/>
+						</footer>
+					</article>
+				</div>	
+			<a href="#one" class="more">Learn More</a>
+	</section>
+
+
+		<!-- Footer -->
+			
+
+		<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
